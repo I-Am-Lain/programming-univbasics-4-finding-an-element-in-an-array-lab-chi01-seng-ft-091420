@@ -3,5 +3,6 @@ def find_element_index(array, value_to_find)
   for item in array do
     if item == value_to_find
       return array[item].index
+    end
   end
 end
